@@ -221,7 +221,11 @@
           </layout>
          </item>
          <item>
-          <widget class="QLCDNumber" name="lcdNumberCH0"/>
+          <widget class="QLCDNumber" name="lcdNumberCH0">
+           <property name="styleSheet">
+            <string notr="true">background: #fff;</string>
+           </property>
+          </widget>
          </item>
          <item>
           <widget class="QProgressBar" name="progressBarCH0">
@@ -299,7 +303,12 @@
           </layout>
          </item>
          <item>
-          <widget class="QLCDNumber" name="lcdNumberCH1"/>
+          <widget class="QLCDNumber" name="lcdNumberCH1">
+           <property name="styleSheet">
+            <string notr="true">background: #fff;
+border-color: rgb(0, 0, 0);</string>
+           </property>
+          </widget>
          </item>
          <item>
           <widget class="QProgressBar" name="progressBarCH1">
