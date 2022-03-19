@@ -79,23 +79,13 @@
         </widget>
        </item>
        <item>
-        <widget class="QComboBox" name="comboBox">
+        <widget class="QComboBox" name="comboBoxId">
          <property name="maximumSize">
           <size>
            <width>55</width>
            <height>16777215</height>
           </size>
          </property>
-         <item>
-          <property name="text">
-           <string>1</string>
-          </property>
-         </item>
-         <item>
-          <property name="text">
-           <string>240</string>
-          </property>
-         </item>
         </widget>
        </item>
        <item>
@@ -149,6 +139,27 @@
           </size>
          </property>
         </spacer>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_10">
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Sensor&lt;/span&gt;: &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QComboBox" name="comboBoxMode">
+         <item>
+          <property name="text">
+           <string>0-20mA</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>4-20mA</string>
+          </property>
+         </item>
+        </widget>
        </item>
        <item>
         <widget class="QPushButton" name="pushButtonSave">
