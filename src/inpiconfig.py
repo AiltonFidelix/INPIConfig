@@ -14,13 +14,13 @@ class INPIConfig(QDialog):
 
         self.ui.pushButtonConnect.clicked.connect(self.portConnect)
         self.ui.pushButtonSave.clicked.connect(self.saveChanges)
-        self.btnOUT0.clicked.connect(self.setOUT0)
-        self.btnOUT1.clicked.connect(self.setOUT1)
-        self.btnCH0Low.clicked.connect(self.setCH0LowRange)
-        self.btnCH0High.clicked.connect(self.setCH0HighRange)
-        self.btnCH1Low.clicked.connect(self.setCH1LowRange)
-        self.btnCH1High.clicked.connect(self.setCH1HighRange)
-        self.timer.timeout.connect(self.displayValues)
+        # self.btnOUT0.clicked.connect(self.setOUT0)
+        # self.btnOUT1.clicked.connect(self.setOUT1)
+        # self.btnCH0Low.clicked.connect(self.setCH0LowRange)
+        # self.btnCH0High.clicked.connect(self.setCH0HighRange)
+        # self.btnCH1Low.clicked.connect(self.setCH1LowRange)
+        # self.btnCH1High.clicked.connect(self.setCH1HighRange)
+        # self.timer.timeout.connect(self.displayValues)
         # # Init setup
         # self.out0 = 0
         # self.out1 = 0

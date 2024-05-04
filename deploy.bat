@@ -13,7 +13,7 @@ pyside6-uic ui\inpiconfig.ui -o src\ui_inpiconfig.py
 :: Build python code and generate executable
 pyinstaller inpiconfig.spec
 
-:: Deactivate venv and remove build dirs
+:: Deactivate venv
 deactivate
 
 rmdir /s /q venv
