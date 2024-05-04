@@ -5,7 +5,7 @@ from minimalmodbus import Instrument, MODE_RTU
 class Modbus:
 
     def __init__(self):
-        self.modbus = Instrument('/dev/tty', 0)
+        self.modbus = Instrument(None, 0)
 
     def connect(self, port, baudrate, slave):
         try:

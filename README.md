@@ -4,7 +4,7 @@ Simple desktop application to configure main registers from INPI-CPU board by mo
 
 <h1>Screen</h1>
 
-![ScreenShot](https://github.com/AiltonFidelix/INPIConfig/blob/main/img/screen.png)
+![ScreenShot](https://github.com/AiltonFidelix/INPIConfig/blob/main/assets/images/screen.png)
 
 <h1>Author</h1>
 ---

@@ -1,2 +1,9 @@
+# folders
 env
+venv
+dist
+build
 src/__pycache__
+
+# files
+ui_*.py
