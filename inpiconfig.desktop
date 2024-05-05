@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=INPIConfig
+Exec=/usr/share/INPIConfig/bin/INPIConfig
+Icon=/usr/share/INPIConfig/icon/config.png
+Terminal=false

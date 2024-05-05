@@ -1,0 +1,6 @@
+Package: INPIConfig
+Version: 1.0.0
+Architecture: all
+Maintainer: Ailton Fidelix
+Homepage: https://github.com/AiltonFidelix/INPIConfig
+Description: Simple desktop application to configure main registers from INPI-CPU board by modbus RTU protocol.

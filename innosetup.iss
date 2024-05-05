@@ -22,7 +22,7 @@ VersionInfoDescription=INPIConfig
 PrivilegesRequired=admin
 AppVersion=1.0.0
 DisableFinishedPage=yes
-WizardSmallImageFile=assets\icons\config.ico
+WizardSmallImageFile=assets\icons\config.bmp
 WizardImageStretch=no
 
 [Languages]

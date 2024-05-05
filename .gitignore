@@ -3,7 +3,10 @@ env
 venv
 dist
 build
-src/__pycache__
+__pycache__
+Output
+INPIConfig
 
 # files
 ui_*.py
+*.exe
