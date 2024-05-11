@@ -1,5 +1,4 @@
-from struct import pack, unpack
-from minimalmodbus import Instrument, MODE_RTU
+from minimalmodbus import Instrument
 
 
 class Modbus:

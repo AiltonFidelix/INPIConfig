@@ -12,7 +12,12 @@ Following we will found the steps to deploy the application for Windows and Linu
 
 ### Windows
 
-First we need to create a virtual enviroment and install de dependencies.
+Requirements:
+
+- Python version >= 3.12
+- InnpSetup version >= 5
+
+First we need to create a virtual enviroment and install all the dependencies.
 
 Creating  the virtual enviroment:
 
@@ -35,11 +40,15 @@ Running the deploy script:
 deploy.bat
 ```
 
-This will compile the python code and generate all binaries. We can find out the installer in the **Output** dir.
+This will compile the python code and generate all binaries. We can find out the installer in **Output\INPIConfig.exe**.
 
-### Linux (Debian)
+### Linux (Debian based systems)
 
-First we need to create a virtual enviroment and install de dependencies.
+Requirements:
+
+- Python version >= 3.12
+
+First we need to create a virtual enviroment and install all the dependencies.
 
 Creating  the virtual enviroment:
 
